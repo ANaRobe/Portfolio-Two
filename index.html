@@ -19,11 +19,11 @@
         <button id="create" onclick="createNewList();">NEW TO DO LIST</button>
     </div>
     <!--TO-DO-->
-    <div  id="to-do"> 
+    <div  id="to-do" class="newList fadeOut"> 
         <header><h1>To Do:</h1></header>
         <div id="newtask">          
             <input  id="input"  type="text" placeholder="Add To Do:">
-            <button id ="add"><i class="fas fa-3x fa-plus-square"></i></button>
+            <button id ="add" onclick="addToDo();"><i class="fas fa-3x fa-plus-square"></i></button>
         </div>
         <ul id="tasks"></ul>
     </div>
