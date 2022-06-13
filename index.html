@@ -4,11 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="To Do List">
+    <meta name="keywords" content="to do, tasks, multi-tasking, organise">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <!--CDN FONT AWESOME-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>To Do List</title>
 </head>
 <body>
-    
+    <!--Intro Page-->
+    <div id="intro">
+        <img src="./assets/img/intro.jpg" alt="A desk with a notebook on top and a ToDo list sticked on the Wall">
+        <button id="create">NEW TO DO LIST</button>
+    </div>
+    <!--New List-->
+    <div  class="container"> 
+        <header><h1>To Do:</h1></header>
+        <div id="newtask">          
+            <input  id="input"  type="text" placeholder="Add To Do:">
+            <button id ="add"><i class="fas fa-3x fa-plus-square"></i></button>
+        </div>
+        <ul id="tasks"></ul>
+    </div>
+
     <script src="assets/js/app.js"></script>
 </body>
 </html>
