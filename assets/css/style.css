@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: "Comic Sans MS", "Comic Sans";
+    background-color:hsl(132, 31%, 94%);
+}
+
+    /*INTRO*/
+#intro{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro img{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+  }
+
+h1{
+    width: 100vw;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    background-color: beige;
+    color:rgb(131, 89, 38);
+    font-size: 36px;
+    padding: 3px;
+    opacity: 80%;
+    border-radius: 5%;
+  }
+
+  #create{
+    position: absolute;
+    justify-content: center;
+    background-color: rgb(138, 120, 57);
+    color: rgb(236, 245, 243);
+    font-size: 16px;
+    padding: 12px;
+    border:2px solid rgb(31, 33, 16);
+    border-radius: 5px;
+}
+
+    /*TO-DO*/
+#to-do{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*INPUT*/
+#newtask{ 
+    width: 550px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+    opacity: 80%;
+}
+
+#input{
+    width: 530px;
+    height: 36px;
+    font-size: 15px;
+    border:2px solid rgb(31, 33, 16);
+    color: #0a0224;
+    border-radius: 5px;
+}
+
+#add{
+   border: none;
+}
+
+/*NEW LIST*/
+#tasks{
+    width: 550px;
+    margin: 20px;
+    background-color: white;
+    color: #0a0224;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    opacity: 80%;
+    border-radius: 5%;
+}
+
