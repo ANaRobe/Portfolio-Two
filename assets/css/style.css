@@ -45,7 +45,7 @@ h1{
     border-radius: 5%;
   }
 
-  #create{
+#create{
     position: absolute;
     justify-content: center;
     background-color: rgb(138, 120, 57);
@@ -88,6 +88,25 @@ h1{
    border: none;
 }
 
+/*TRANSIT INTRO -> TO DO*/
+.newList {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.2s ease 0.2s;
+}
+  
+div.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+}
+  
+div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+} 
+
 /*NEW LIST*/
 #tasks{
     width: 550px;
@@ -102,13 +121,44 @@ h1{
     border-radius: 5%;
 }
 
-/*TRANSIT INTRO -> TO DO*/
-div.fadeOut {
-    opacity: 0;
-    pointer-events: none;
-  }
-  
-div.fadeIn {
-    opacity: 1;
-    pointer-events: all;
-  } 
+.todo{
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color:hsl(132, 31%, 94%);   
+}
+
+.item{
+    width: 90%;
+    margin: 5px;
+    border:1px solid #7b7495;
+    border-radius: 3px;
+}
+
+/*OPTIONS FOR EACH ITEM*/
+.itemOptions {
+    display: inline-flex;
+}
+
+.check, .delete{
+    width: 28px;
+    height: 28px;
+    background-color: #bace88;
+    color: #eff3f8;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(221, 223, 245);
+    border-radius: 3px; 
+}
+
+.fa-trash{
+    display: inline;
+    justify-content: center;
+}
+
+.delete{
+    background-color: #b6662d;
+}
