@@ -12,13 +12,16 @@ let input = document.querySelector("#input");
 let tasks = document.querySelector("#tasks");
 
 function addToDo() {
+    //REMOVE WHITE SPACES FROM THE TEXT
+    let trimmedInput = input.value.trim();
+    console.log(trimmedInput);
     //RESTORE INPUT 
     input.style.backgroundColor="white";
     //CREATE LIST  
-    if (input.value.length > 0) { 
+    if (trimmedInput.length > 0) { 
         let todo = document.createElement("li");
         todo.innerHTML = `
-            <div class="item">${input.value}</div>
+            <div class="item">${trimmedInput}</div>
             <div class="itemOptions">
             <button class="check" type="check"  onclick="checkTodo();"><i class="fas fa-check"></i></button>
             <button class="delete" type="trash" onclick="deleteTodo();"><i class="fas fa-trash"></i></button>
