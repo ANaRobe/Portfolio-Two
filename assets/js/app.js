@@ -11,6 +11,13 @@ function createNewList() {
 let input = document.querySelector("#input");
 let tasks = document.querySelector("#tasks");
 
+//EVENT LISTENER
+input.addEventListener("keypress", function(event){
+    if(event.key === "Enter") {
+        addToDo();
+    }
+});
+
 function addToDo() {
     //REMOVE WHITE SPACES FROM THE TEXT
     let trimmedInput = input.value.trim();
@@ -25,7 +32,7 @@ function addToDo() {
             <div class="itemOptions">
             <button class="check" type="check"  onclick="checkToDo();"><i class="fas fa-check"></i></button>
             <button class="delete" type="trash" onclick="deleteToDo();"><i class="fas fa-trash"></i></button>
-            <div>`;      
+            <div>`;          
         todo.classList.add("todo");
         tasks.appendChild(todo);
     }else{
@@ -37,7 +44,7 @@ function addToDo() {
 
 //CHECK TODO
 function checkToDo() {
-    let items = document.getElementsByClassName("item");
+    let items = document.querySelector("item");
     items.classList.toggle("completed");
 }
 
