@@ -23,8 +23,8 @@ function addToDo() {
         todo.innerHTML = `
             <div class="item">${trimmedInput}</div>
             <div class="itemOptions">
-            <button class="check" type="check"  onclick="checkTodo();"><i class="fas fa-check"></i></button>
-            <button class="delete" type="trash" onclick="deleteTodo();"><i class="fas fa-trash"></i></button>
+            <button class="check" type="check"  onclick="checkToDo();"><i class="fas fa-check"></i></button>
+            <button class="delete" type="trash" onclick="deleteToDo();"><i class="fas fa-trash"></i></button>
             <div>`;      
         todo.classList.add("todo");
         tasks.appendChild(todo);
@@ -36,5 +36,13 @@ function addToDo() {
 }
 
 //CHECK TODO
+function checkToDo() {
+    let items = document.getElementsByClassName("item");
+    items.classList.toggle("completed");
+}
 
 //DELETE TODO
+function deleteToDo() {
+    let todo = document.querySelector(".todo");
+    todo.remove();
+}

@@ -163,6 +163,10 @@ div.fadeIn {
     background-color: #b6662d;
 }
 
+.completed{
+    text-decoration: line-through;
+}
+
 /*MEDIA QUERY*/
 @media (max-width: 550px){
     #input{
