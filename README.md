@@ -30,3 +30,17 @@ The User's goals are to ripe the benefits of increased productivity, staying mot
 ### App Owner's Goals
 
 The main objective is to increase the productivity and deliver value to the company.He aims is to build practical application that will be 100% successful.
+
+### Design
+
+The design is a minimalistic one and was influenced by the home page's hero image - A desk with a notebook on top and a ToDo list sticked on the Wall.
+The choice for Clip Art was made almost instantly, only by one google search because it enpictures exactly what this App wants to provide. 
+By placing the Button right in the center of the screen, it invites the users to start a new session with only one click.
+
+### Colour Scheme
+
+With carefully chosen colors, the apearance of the input area and later the actual list + buttons, fits the main picture's theme.
+
+### Hero Image
+The Image have been chosen in accordance to the functionality of the app.
+
