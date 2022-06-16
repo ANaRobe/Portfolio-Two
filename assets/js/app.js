@@ -28,11 +28,12 @@ function addToDo() {
     if (trimmedInput.length > 0) { 
         let todo = document.createElement("li");
         todo.innerHTML = `
+            <div class="todo">
             <div class="item">${trimmedInput}</div>
             <div class="itemOptions">
-            <button class="check" type="check"  onclick="checkToDo();"><i class="fas fa-check"></i></button>
-            <button class="delete" type="trash" onclick="deleteToDo();"><i class="fas fa-trash"></i></button>
-            <div>`;          
+            <button class="check" type="check"  onclick="checkToDo(this);"><i class="fas fa-check"></i></button>
+            <button class="delete" type="trash" onclick="deleteToDo(this);"><i class="fas fa-trash"></i></button>
+            </div>`;          
         todo.classList.add("todo");
         tasks.appendChild(todo);
     }else{
@@ -43,13 +44,13 @@ function addToDo() {
 }
 
 //CHECK TODO
-function checkToDo() {
-    let items = document.querySelector("item");
-    items.classList.toggle("completed");
+function checkToDo(button) {
+    const item = button.parentElement.previousElementSibling;
+    item.classList.toggle("completed");
 }
 
 //DELETE TODO
-function deleteToDo() {
-    let todo = document.querySelector(".todo");
+function deleteToDo(button) {
+    const todo = button.parentElement.previousElementSibling.parentElement;
     todo.remove();
 }
