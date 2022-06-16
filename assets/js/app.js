@@ -36,6 +36,7 @@ function addToDo() {
             </div>`;          
         todo.classList.add("todo");
         tasks.appendChild(todo);
+        input.value =" ";
     }else{
     //ALERT WHEN NO TEXT  
     input.style.backgroundColor="pink";
