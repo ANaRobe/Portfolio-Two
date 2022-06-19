@@ -82,3 +82,37 @@ Each task will be displayed under the input area in the order which was added. E
 1. Check Button - which will diplay the text whit a line-through
 
 2. Delete Button - which has the function to remove the task
+
+
+### Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+
+
+### Testing
+
+- I tested that this page works in different browsers: Chrome, Firefox, Microsoft Edge.
+
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+
+- I confirmed that all elemnts which are clickable function accordingly.
+
+### Validator testing
+
+* HTML
+No errors were found using W3C HTML validator testing.See screenshot below:
+![alt text](assets/img/w3c.png)
+
+
+* CSS
+Errors were found using W3C CSS validator testing. See screenshot below: 
+![alt text](assets/img/jigsaw.png)
+
+* JS
+No errors were found using JSHint validator testing.See screenshot below:
+![alt text](assets/img/jshint.png)
+
+* Lighthouse testing 
+![alt text](assets/img/lighthouse.png)

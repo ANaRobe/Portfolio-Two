@@ -48,12 +48,13 @@ h1{
 #create{
     position: absolute;
     justify-content: center;
-    background-color: rgb(138, 120, 57);
-    color: rgb(236, 245, 243);
+    background-color: rgb(3, 8, 40);
+    color: rgb(206, 241, 102);
     font-size: 16px;
     padding: 12px;
-    border:2px solid rgb(31, 33, 16);
+    border: 3px solid blue;
     border-radius: 5px;
+
 }
 
     /*TO-DO*/
@@ -115,7 +116,6 @@ div.fadeIn {
     color: #0a0224;
     display: flex;
     flex-direction: column;
-    align-items: space-between;
     justify-content: center;
     opacity: 80%;
     border-radius: 5%;

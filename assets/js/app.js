@@ -21,7 +21,7 @@ input.addEventListener("keypress", function(event){
 function addToDo() {
     //REMOVE WHITE SPACES FROM THE TEXT
     let trimmedInput = input.value.trim();
-    console.log(trimmedInput);
+
     //RESTORE INPUT 
     input.style.backgroundColor="white";
     //CREATE LIST  
