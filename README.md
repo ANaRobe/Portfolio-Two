@@ -149,3 +149,36 @@ The live deployed link can be found here - https://anarobe.github.io/Portfolio-T
 The photo used on the home page as background image is from This Open Source site https://www.wikihow.com/Make-a-To-Do-List
 
 
+### Acknowledgements
+
+ For inpiration in general, for code and advice, I'd like to give thanks to:
+
+* Martina Terlevic
+and
+* Kasia Bogucka
+
+
+### Sources
+Youtube Tutorials that helped me to understand JavaScript and how to build functions:
+https://www.youtube.com/c/WickedlySmart
+https://www.youtube.com/watch?v=qRnUBiTJ66Y
+https://www.youtube.com/watch?v=-pRg_daFjfk
+https://www.youtube.com/c/TheCodingTrain
+https://www.youtube.com/watch?v=qWPtKtYEsN4&ab_channel=DevEd
+https://www.youtube.com/watch?v=Ttf3CEsEwMQ&ab_channel=DevEd
+
+
+Sites that provided me with helpful information and resolved many of my issues::
+https://stackoverflow.com/
+https://www.freecodecamp.org/
+https://jsmanifest.com/composing-in-javascript/
+https://www.jschallenger.com/
+hackernoon.comhackernoon.com
+https://www.foolishdeveloper.com/2021/11/todo-list-javascript.html
+https://www.w3schools.com/ 
+
+The top screen shot for responsive design was taken from:
+
+https://ui.dev/amiresponsive
+
+Thank you
