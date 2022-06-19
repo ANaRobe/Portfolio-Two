@@ -132,4 +132,20 @@ Test has been conducted using Pythontutor and Google Chrome, testing different d
 3. By creating the functions for the Check and Delete buttons I found myself in the dificulty to delegate the function to each button when was clicked. The solution was to add "this" as atribute when the function was called onClick and "button" as parameter of the function. With this challange I also learned the part of getting the right elements.
 
 
+### Deployment
+
+The development platform used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
+
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in GitHub Docs.
+
+*Log into Github. *Select the correct GitHub Repository to be deployed live. *Underneath the repository name, click the “Settings” option. *In the sub-section list on the left, under “Code and automation”, click “Pages”. *Within the ”Source” section choose ”main” as Branch and root as folder and click ”Save”. *The page refreshes and a website shall then deploy via a link.
+
+The live deployed link can be found here - https://anarobe.github.io/Portfolio-Two/
+
+### Media
+
+The photo used on the home page as background image is from This Open Source site https://www.wikihow.com/Make-a-To-Do-List
+
 
