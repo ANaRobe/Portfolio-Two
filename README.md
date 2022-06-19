@@ -116,3 +116,20 @@ No errors were found using JSHint validator testing.See screenshot below:
 
 * Lighthouse testing 
 ![alt text](assets/img/lighthouse.png)
+
+
+### Testing and Bugs
+
+Test has been conducted using Pythontutor and Google Chrome, testing different devices and screen resolutions through google dev tools.
+
+## Main bugs I came across - JavaScript:
+
+1. The first issue I came across was when making the addToDo() function and the placeholder turning pink. The feature suppose to turn pink and display the message : "Don't forget to type in a task!" when the user attempts to introduce no text. But after typing in text, the placehlder was keep staying pink. 
+ The solution was to add background color white right when the function started. 
+
+2. The next issue was that if the user would have typing one simple space, a new task would have been created and no text deisplayed. In this case my mentor suggested me to look up for trim() method. I have succesfully applied her advice.
+
+3. By creating the functions for the Check and Delete buttons I found myself in the dificulty to delegate the function to each button when was clicked. The solution was to add "this" as atribute when the function was called onClick and "button" as parameter of the function. With this challange I also learned the part of getting the right elements.
+
+
+
