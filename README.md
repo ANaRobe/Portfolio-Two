@@ -102,20 +102,32 @@ Each task will be displayed under the input area in the order which was added. E
 ### Validator testing
 
 * HTML
-No errors were found using W3C HTML validator testing.See screenshot below:
+
+- No errors were found using W3C HTML validator testing.
+
+See screenshot below:
 ![alt text](assets/img/w3c.png)
 
 
 * CSS
-Errors were found using W3C CSS validator testing. See screenshot below: 
+
+Errors were found using W3C CSS validator testing. 
+
+See screenshot below: 
 ![alt text](assets/img/jigsaw.png)
 
+- I have changed the cdnjs link  with 
+<script src="https://kit.fontawesome.com/fa9de1322d.js" crossorigin="anonymous"></script> 
+
 * JS
-No errors were found using JSHint validator testing.See screenshot below:
+Beside a couple of a couple of unnecessary coulumns, no other errors were found using JSHint validator testing.See screenshot below:
 ![alt text](assets/img/jshint.png)
 
 * Lighthouse testing 
 ![alt text](assets/img/lighthouse.png)
+
+Because of a low score of accessibility I have decided to change the button's color in Intro Secreen.
+Regarding the Hero Image,because of close deadline, I will take care of it later on.
 
 
 ### Testing and Bugs
@@ -130,6 +142,7 @@ Test has been conducted using Pythontutor and Google Chrome, testing different d
 2. The next issue was that if the user would have typing one simple space, a new task would have been created and no text deisplayed. In this case my mentor suggested me to look up for trim() method. I have succesfully applied her advice.
 
 3. By creating the functions for the Check and Delete buttons I found myself in the dificulty to delegate the function to each button when was clicked. The solution was to add "this" as atribute when the function was called onClick and "button" as parameter of the function. With this challange I also learned the part of getting the right elements.
+
 
 
 ### Deployment
