@@ -4,7 +4,7 @@ function createNewList() {
     const toDo = document.querySelector("#to-do"); 
     intro.classList.add("fadeOut");
     toDo.classList.add("fadeIn");
-};
+}
 
 // ADD NEW TASK
 //Select DOM
@@ -41,7 +41,7 @@ function addToDo() {
     //ALERT WHEN NO TEXT  
     input.style.backgroundColor="pink";
     input.placeholder="Don't forget to type in a task!";
-  };
+  }
 }
 
 //CHECK TODO
