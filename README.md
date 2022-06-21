@@ -102,6 +102,7 @@ Each task will be displayed under the input area in the order which was added. E
 
 ### Validator testing
 
+
 * HTML
 
 - No errors were found using W3C HTML validator testing.
@@ -128,17 +129,22 @@ See screenshot below:
 
 
 * JS
+
 Beside a couple of a couple of unnecessary coulumns, no other errors were found using JSHint validator testing.See screenshot below:
 
 ![alt text](assets/img/jshint.png)
 
+
 * Lighthouse testing 
 
+See screenshot below:
 ![alt text](assets/img/lighthouse.png)
 
 Because of a low score of accessibility I have decided to change the button's color in Intro Secreen.
 Regarding the Hero Image,because of close deadline, I will take care of it later on.
 
+See screenshot below:
+![alt text](assets/img/sec-lighthouse.png)
 
 ### Testing and Bugs
 
