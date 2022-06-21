@@ -66,6 +66,7 @@ The role of the Intro Screen is to invite the user to start a new list of tasks 
 The Input Area displays initially a text input where the user will type in the task. Next to this area the user can make use of the + button to add the text on the list or simply by pressing the Enter key. 
 
 ![alt text](assets/img/list.png)
+
 ![alt text](assets/img/pink-input.png)
 
 
@@ -106,6 +107,7 @@ Each task will be displayed under the input area in the order which was added. E
 - No errors were found using W3C HTML validator testing.
 
 See screenshot below:
+
 ![alt text](assets/img/w3c.png)
 
 
@@ -114,16 +116,24 @@ See screenshot below:
 Errors were found using W3C CSS validator testing. 
 
 See screenshot below: 
+
 ![alt text](assets/img/jigsaw.png)
 
 - I have changed the cdnjs link  with 
 <script src="https://kit.fontawesome.com/fa9de1322d.js" crossorigin="anonymous"></script> 
 
+See screenshot below: 
+
+![alt text](assets/img/jigsaw-2.png)
+
+
 * JS
 Beside a couple of a couple of unnecessary coulumns, no other errors were found using JSHint validator testing.See screenshot below:
+
 ![alt text](assets/img/jshint.png)
 
 * Lighthouse testing 
+
 ![alt text](assets/img/lighthouse.png)
 
 Because of a low score of accessibility I have decided to change the button's color in Intro Secreen.
